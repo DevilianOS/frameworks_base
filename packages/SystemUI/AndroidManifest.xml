@@ -360,6 +360,12 @@
                   android:label="@string/statusbar_items_title"
                   android:process=":tuner"
                   android:parentActivityName="com.ion.ionizer.fragments.StatusBar"
+
+        <activity android:name=".tuner.NavBarActivity"
+                  android:theme="@style/ExTunerSettings"
+                  android:label="@string/nav_bar"
+                  android:process=":tuner"
+                  android:parentActivityName="com.devilian.settings.DevilianSettings"
                   android:exported="true">
         </activity>
 
