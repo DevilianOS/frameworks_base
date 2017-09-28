@@ -66,4 +66,8 @@
 
     <!-- Name of the volte status bar icon. -->
     <string name="status_bar_volte">VoLTE</string>
+
+    <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
+    <string name="custom_hint">Swipe from icon to launch</string>
+
 </resources>
