@@ -1002,6 +1002,19 @@ public class Build {
     public static final String FINGERPRINT = deriveFingerprint();
 
     /**
+     * Custom fingerprint
+     * @hide
+     */
+    public static final String PROP_DEVILIAN_FINGERPRINT = "ro.devilian.fingerprint";
+
+    /**
+     * Custom fingerprint
+     * @hide
+     */
+    public static final String DEVILIAN_FINGERPRINT = SystemProperties.get(PROP_DEVILIAN_FINGERPRINT,
+            deriveFingerprint());
+
+    /**
      * Some devices split the fingerprint components between multiple
      * partitions, so we might derive the fingerprint at runtime.
      */
