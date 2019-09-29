@@ -27,6 +27,8 @@ LOCAL_REQUIRED_MODULES := \
 	DisplayCutoutEmulationCornerOverlay \
 	DisplayCutoutEmulationDoubleOverlay \
 	DisplayCutoutEmulationTallOverlay \
+	FontArbutusSourceOverlay \
+	FontArvoLatoOverlay \
         FontAclonicaSourceOverlay \
         FontAmaranteSourceOverlay \
         FontBariolSourceOverlay \
@@ -34,6 +36,7 @@ LOCAL_REQUIRED_MODULES := \
         FontCoolstorySourceOverlay \
         FontLGSmartGothicSourceOverlay \
         FontNotoSerifSourceOverlay \
+	FontRubikRubikOverlay \
         FontRosemarySourceOverlay \
         FontSonySketchSourceOverlay \
         FontSurferSourceOverlay \
