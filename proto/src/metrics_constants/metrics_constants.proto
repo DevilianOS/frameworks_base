@@ -7424,6 +7424,7 @@ message MetricsEvent {
 
     //DevilianOS Metrics Constants
     DEVILIAN = 2000;
+    DEVILIAN_SETTINGS = 2001;
 
   }
 }
