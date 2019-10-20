@@ -83,7 +83,6 @@ public class DragDownHelper implements Gefingerpoken {
             @Override
             public void run() {
                 DevilianUtils.switchScreenOff(context);
-                }
             }
         };
     }

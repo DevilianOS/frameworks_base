@@ -18,7 +18,8 @@
     android:id="@+id/dnd_icon"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginTop="6dp">
+    android:background="@drawable/test_36"
+    android:layout_marginTop="8dp">
 
     <ImageView
         android:layout_width="14dp"

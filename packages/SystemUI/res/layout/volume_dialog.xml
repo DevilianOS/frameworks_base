@@ -61,7 +61,7 @@
             <include layout="@layout/volume_dnd_icon"
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
-                     android:layout_marginTop="6dp"/>
+                     android:layout_marginTop="8dp"/>
         </FrameLayout>
 
         <LinearLayout
@@ -99,8 +99,7 @@
                     android:layout_height="@dimen/volume_dialog_tap_target_size"
                     android:layout_gravity="center"
                     android:contentDescription="@string/accessibility_volume_settings"
-                    android:background="@drawable/ripple_drawable_20dp"
-                    android:tint="?android:attr/textColorSecondary"
+		    android:tint="?attr/colorAccent"	
                     android:soundEffectsEnabled="false" />
             </FrameLayout>
         </LinearLayout>
